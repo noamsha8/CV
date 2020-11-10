@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+<title> Contact me </title>
+</head>
+<style>
+    body {
+      background-image: url("Background.jpg");
+      background-size: cover;
+	background-attachment: fixed;
+    }
+
+    </style>
+<body> 
+    <h2>Input the following</h2>
+    <form>
+        <label for="firstname">First name:</label><br>
+        <input type="text" id="firstname" name="firstname"><br>
+        <label for="lastname">Last name:</label><br>
+        <input type="text" id="lastname" name="lastname"><br>
+        <label for="Company">Company:</label><br>
+        <input type="text" id="Company" name="Company">
+      
+      <h2>gender:</h2>
+     
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label><br>
+      
+      <h2>About our company:</h2>
+      <textarea rows="4" cols="50" name="comment" form="usrform">
+        Enter text here...</textarea>
+        <h2>What are we looking for:</h2>
+      <textarea rows="4" cols="50" name="comment" form="usrform">
+        Enter text here...</textarea><br>
+
+        <input type="submit" value="Submit">
+    </form>
