@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+<title> My CV </title>
+<p1 id="P1"> first script</p1>
+<script>
+ document.getElementById("P1").innerHTML = "Changed";
+</script>
+</head>
+
+<body>
+    <br> 
+<p1 id="P2"> second script</p1>
+
+<script>
+    function function1 (x,y,z) {
+    return x+y+z;
+}
+function function2 (){
+document.getElementById("P2").innerHTML = function1 (6,6,3);
+}
+</script>
+<br>
+<button type="button" onclick="function2()">Change it</button>
+<br>
+<button  onclick="document.getElementById('noam').src='mario.jfif' ">Click to see Mario </button>
+<img id="noam" src="mario.jfif" alt="">
+<button onclick="document.getElementById('noam').src='Luigi.jfif' ">Click to see Luigi</button>
+    
+
+</body>
+</html>
