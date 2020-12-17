@@ -1,0 +1,132 @@
+* {
+    background-image: url("Background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}   
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto;
+    padding: 20px;
+    grid-template-rows: 50px 100px 50px 100px 200px   ;
+}
+
+
+.item1{
+    grid-area: 1/1/2/10;
+    margin: auto;
+    margin-top: -20px;
+    font-size: 13mm;
+    background: rgba(255, 255, 255, 0);
+}
+.item2{
+    grid-area: 2/1/3/2;
+    background: rgba(255, 255, 255,0);
+    margin:auto;
+
+}
+.item3{
+    grid-area: 2/2/3/3;
+    background: rgb(180, 148, 148);
+    margin: center;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+}
+.item4{
+    grid-area: 2/3/3/4;
+    background: rgb(180, 148, 148);
+    margin: center;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+}
+.item5{
+    grid-area: 2/4/3/5;
+    background: rgb(180, 148, 148);
+    margin: center;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+}
+.item6{
+    grid-area: 2/5/3/6;
+    background: rgb(180, 148, 148);
+    margin: center;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+     
+}
+.item7{
+    grid-area: 2/6/3/7;
+    background: rgb(180, 148, 148);
+    margin: center;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+      
+}
+.item8{
+    grid-area: 2/7/3/8;
+    background: rgb(180, 148, 148);
+    margin: center;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+}
+
+.item9{
+    grid-area: 2/8/3/9;
+    background: rgb(180, 148, 148);
+    margin: center;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+}
+
+.item10{
+    grid-area: 2/9/3/10;
+    background: rgb(180, 148, 148);
+    margin: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+.item11{
+    grid-area: 3/1/4/10;
+    background: rgba(255, 255, 255, 0);
+    font-size: 20px;
+    margin: auto;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: underline;
+}
+.item12{
+    grid-area: 4/3/6/6;
+    background: rgba(255, 255, 255, 0);
+}
+.item13{
+    grid-area: 4/7/5/9;
+    background: rgba(255, 255, 255, 0);
+}
+
+.button {
+    background: rgba(255, 255, 255, 0);
+    border: none;
+    color: white;
+    margin: center;
+    margin-top: -25px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 15px 32px;
+    display: inline-block;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  .list{
+    background: rgba(255, 255, 255, 0);
+  }
+.li{
+    background: rgba(255, 255, 255, 0);
+}
